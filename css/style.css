@@ -1,0 +1,489 @@
+*{
+    margin: 0;
+    padding: 0;outline: 0;
+    box-sizing: border-box;
+}
+
+/* ====== navber css start ====== */
+#navber-sec{
+    background-color: #fcbd42;
+}
+
+.navbar{
+    padding: 20px 0;
+}
+
+#navber-sec nav ul li a{ 
+    font-weight: bold;
+    font-family: arial;
+    font-size: 18px;
+    position: relative;
+    margin: 3px;
+    border-radius: 8px;
+    transition: all 0.3s;
+}
+
+#navber-sec nav ul li a:hover{
+    background-color: white
+}
+
+/* ====== navber css end ====== */
+
+
+/* ====== banner css start ====== */
+#banner_sec{
+    background-color: #fcbd42;
+    position: relative;
+}
+
+.banner-content{
+    margin-top: 100px;
+}
+
+#banner_sec .banner-content p{
+    color: #3d2514;
+    text-transform: uppercase;
+    font-family: tahoma;
+    font-size: 13px;
+    border: 1px dashed #3d2514;
+    width: 350px;
+    padding: 5px 5px;
+}
+
+#banner_sec .banner-content h1{
+   color: #3d2514;
+   font-weight: bold;
+   margin-top: -20px;
+   text-transform: uppercase;
+   margin-left: -8px;
+}
+
+#banner_sec .banner-content h2{
+   color: #3d2514;
+   font-weight: bold;
+   font-size: 40px;
+   text-transform: uppercase;
+   margin-top: -20px;
+   margin-left: -4px;
+   font-family: tahoma;
+   letter-spacing: 5px;
+}
+
+.banner-item{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(226, 4, 4);
+    position: absolute;
+    border-radius: 50%;
+    top: 285px;
+    left: 605px;
+    z-index: 1;
+    border: 2px dashed white;
+    outline: 10px solid rgb(226, 4, 4);
+}
+
+.banner-item span{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.banner-item h5{
+    font-weight: bold;
+    color: white;
+    top: 20px;
+}
+/* ====== banner css end ====== */
+
+
+/* ====== gellary css start ====== */
+.gellery_img{
+    margin-top: 30px;
+    
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px 2px gray;
+}
+.gellery_overly{
+    
+    position:absolute;
+    width:100%;
+    height:0%;
+    background-color: #f85e05;
+    top: 0;
+    opacity:0.9;
+    overflow: hidden;
+    transition: all linear 0.3s;
+}
+.gellery_info{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border: 2px solid white;
+    padding: 0 10px;
+    border-radius: 8px;
+}
+
+.gellery_info h4{
+    color:#fff;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.gellery_info h3{
+    font-size: 25px;
+    color:#fff;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.gellery_info p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 15px;
+    color:#fff;
+}
+.gellery_img:hover .gellery_overly{
+    height:100%
+}
+button.btn.btn-warning {
+    margin-top: 30px;
+}
+/* ====== gellary css end ====== */
+
+
+/* ====== choose css start ====== */
+
+#choose h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: #4e2305;
+}
+
+#choose p{
+    color: #3d2514;
+    font-size: 12px;
+    padding: 0px 60px;
+}
+
+.card{
+    border: none;
+    box-shadow: 2px 2px 10px grey;
+    padding: 15px 10px;
+}
+
+.card .card-body{
+    transition: 0.3s;
+}
+
+.card .card-body:hover{
+    background-color: rgb(182, 171, 171);
+}
+
+.card img{
+    transition: 0.3s;
+    opacity: 0.7;
+}
+
+.card img:hover{
+    transform: scale(1.1);
+    opacity: 1;
+}
+/* ====== choose css end ====== */
+
+
+/* ====== up coming css start ====== */
+#up_coming{
+    background-color: white;
+}
+#up_coming .container{
+    box-shadow: 3px 8px 20px grey;
+}
+
+#up_coming .col-lg-6{
+    transition: 0.4s;
+}
+
+#up_coming .col-lg-6:hover{
+    background-color: rgb(163, 142, 142);
+}
+
+#up_coming p{
+    font-size: 14px;
+}
+
+#up_coming .up-coming-img{
+    background-image: url('../images/up-coming-img.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+
+#up_coming .up-coming-img-2{
+    background-image: url('../images/gellary-img-1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+
+#up_coming .up-coming-img-3{
+    background-image: url('../images/gellaary-img-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+
+#up_coming .up-coming-img h1,
+#up_coming .up-coming-img-2 h1,
+#up_coming .up-coming-img-3 h1{
+    background-color: #cf8b02;
+    visibility: hidden;
+}
+
+#up_coming .up-coming-img:hover h1,
+#up_coming .up-coming-img-2:hover h1,
+#up_coming .up-coming-img-3:hover h1{
+    visibility: visible;
+}
+
+#up_coming .follow-icon span{
+    font-size: 20px;
+    font-weight: bold;
+    color: #4e2305;
+}
+
+#up_coming .follow-icon a{
+    color: red;
+    font-size: 20px;
+    margin: 5px;
+    transform: 0.3s;
+}
+/* ====== up coming css end ====== */
+
+
+/* ====== contact-form css start ====== */
+#contact-form{
+    background-color: white;
+}
+#contact-form img{
+    margin-top: -60px; 
+}
+
+#contact-form .col-lg-6 p{
+    font-weight: bold;
+    color: #4e2305;
+}
+
+#contact-form .form{
+    margin-bottom: 100px;
+    box-shadow: 2px 2px 10px 2px grey;
+}
+
+#contact-form .form:hover{
+    background-color: rgb(221, 213, 213);
+    
+}
+
+#contact-form .col-lg-6 h1{
+    font-weight: bold;
+    color: #4e2305;
+    font-family: varenda;
+}
+
+#contact-form .contact-img-3{
+    margin-top: 100px;
+}
+/* ====== contact-form css end ====== */
+
+
+/* ====== about css start ====== */
+#about{
+    background-color: white;
+}
+#about h1{
+    color: #4e2305;
+    font-weight: bold;
+    font-family: varenda;
+    font-size: 45px;
+}
+
+#about p{
+    font-size: 14px;
+}
+/* ====== aboutm css end ====== */
+
+
+/* ====== footer css start ====== */
+#footer .footer-bg-img{
+    background-image: url('../images/footer-img.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 20px;
+}
+
+.footer-logo img{
+    height: 60px;
+    width: 250px;
+}
+
+.footer-content p{
+    font-size: 15px;
+    box-shadow: 2px 2px 10px grey;
+    padding: 8px 10px;
+    transition: all 0.3s;
+}
+
+.footer-content p:hover{
+    background-color: black;
+}
+.footer-content span{
+    color: white;
+}
+
+
+.footer-right-content{
+    margin-top: 100px;
+    float: right;
+    font-size: 20px;
+}
+
+.footer-right-content .fa{
+    font-size: 20px;
+    padding: 8px 10px;
+}
+
+.media-icon{
+    margin-top: 20px;
+}
+
+.media-icon a i{
+    background-color: white;
+    border-radius: 45%;
+    transition: 0.3s;
+}
+
+.media-icon a i:hover{
+    transform: scale(1.2);
+    background-color: rgb(238, 255, 0);
+    color: red;
+}
+/* ====== footer css end ====== */
+
+
+
+
+
+
+
+
+
+
+
+/* ====== team css start ====== */
+.title-box{
+    text-align: center;
+    margin: 0 auto 50px;
+}
+
+.title-box h1{
+    color: #4e2305;
+    font-weight: bold;
+    font-size: 45px;
+    margin-top: 20px;
+}
+
+.title-box p{
+    color: #4e2305;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: varinda;
+}
+
+.profile-box{
+    width: 240px;
+    height: 240px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    box-shadow: 0 1px 5px black;
+    padding: 20px;
+    position: relative;
+    transition: 0.4s;
+}
+
+.profile-box:hover{
+    background-color: #e6bfbf;
+}
+
+.profile-box img{
+    width: 100px;
+    height: 55px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: 2px solid darkorange;
+    border-radius: 4px;
+    transition: 0.5s;
+}
+
+.profile-box img:hover{
+    width: 200px;
+    height: 200px;
+}
+
+.profile-box h6{
+    color: blue;
+}
+
+small{
+    color: rgb(250, 3, 139);
+}
+
+.social-box{
+    background-color: rgb(193, 196, 190);
+    margin: 15px auto 20px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.social-box .fa{
+    color: darkorange;
+    margin: 5px 8px;
+    cursor: pointer;
+    background-color: white;
+    padding: 4px 8px;
+    border-radius: 45%;
+    transition: 0.3;
+}
+
+.social-box .fa:hover{
+    background-color: grey;
+    color: blue;
+    transform: scale(1.3);
+}
+
+
+.profile-box p{
+    color: rgb(94, 53, 3);
+    text-align: center;
+    font-size: 14px;
+    margin-top: -15px;
+   
+}
+
+.team-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+}
+/* ====== team css end ====== */

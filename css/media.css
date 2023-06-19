@@ -1,0 +1,346 @@
+/* Extra small devices */
+@media (max-width: 575.98px) {
+    .nav-logo img {
+        height: 45px;
+        width: 180px;
+    }
+
+    ul.navbar-nav.ml-auto {
+        text-align: center;
+    }
+    .navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .banner-content {
+        margin-top: 60px;
+    }
+
+    #banner_sec .banner-content p {
+        font-size: 14px;
+        width: 207px;
+        padding: 5px 5px;
+    }
+
+    #banner_sec .banner-content h1 {
+        margin-top: 0px;
+        margin-left: 0px;
+        font-size: 55px;
+    }
+
+    #banner_sec .banner-content h2 {
+        font-size: 30px;
+        margin-top: -5px;
+        margin-left: 0px;
+    }
+
+    .banner-img img {
+        margin-left: 10px;
+    }
+    .banner-img img {
+        transform: scale(1);
+    }
+    .banner-item {
+        top: 400px;
+        left: 45px;
+    }
+
+    .pb-5, .py-5 {
+        padding-bottom: 1rem!important;
+    }
+    .pt-5, .py-5 {
+        padding-top: 1rem!important;
+    }
+    .gellery_info h3 {
+        font-size: 15px;
+    }
+    .gellery_info h4 {
+        font-size: 17px;
+    }
+    .mt-4, .my-4 {
+        margin-bottom: 25px;
+    }
+    .card {
+        box-shadow: none;
+    }
+    #choose h1 {
+        font-size: 30px;
+    }
+    #choose p {
+        font-size: 13px;
+        padding: 0px 0px;
+    }
+    #up_coming .col-lg-6 {
+        text-align: center;
+    }
+    h5.text-uppercase {
+        font-size: 22px;
+    }
+    #up_coming .follow-icon span {
+        font-size: 28px;
+        font-weight: bold;
+        color: #4e2305;
+    }
+    #up_coming p {
+        font-size: 12px;
+    }
+    #contact-form img {
+        margin-top: 0px;
+        margin-bottom: -70px;
+    }
+    #contact-form .col-lg-6 h1 {
+        font-size: 26px;
+        margin-bottom: -45px;
+    }
+    a.btn.btn-danger.btn-block {
+        margin-bottom: 20px;
+    }
+    #contact-form .form {
+        margin-bottom: -70px;
+    }
+    #contact-form img {
+        margin-bottom: -40px;
+    }
+    #contact-form .contact-img-3 {
+        margin-left: 15px;
+        margin-bottom: -30px;
+        margin-top: 77px;
+    }
+    #about h1 {
+        font-size: 35px;
+    }
+    #about p {
+        font-size: 12px;
+    }
+    .card-img-top {
+        margin: -5px;
+    }
+    .card .card-body {
+        text-align: center;
+    }
+    .card {
+        padding: 0px 0px;
+    }
+    .footer-content p:hover{
+        transform: scale(1);
+        margin-left: 0;
+    }
+
+    .footer-content p {
+        text-align: center;
+        font-size: 12px;
+        box-shadow: 2px 2px 10px grey;
+        padding: 8px 10px;
+        margin: 15px 0;
+    }
+
+    .footer-content span {
+        text-align: center;
+        font-size: 12px;
+    }
+    .footer-content.text-light.py-5 {
+        text-align: center;
+    }
+    
+    .footer-right-content {
+        text-align: center;
+        margin-top: 0px;
+        float: none;
+        font-size: 12px;
+    }
+
+.footer-right-content .fa {
+    font-size: 16px;
+    
+}
+.social-media-icon{
+    text-align: center;
+    float: none;
+
+}
+.social-media-icon a i {
+    margin-top: 25px;
+    margin-left: 0px;
+    background-color: white;
+    padding: 8px 8px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+    .nav-logo img {
+        height: 45px;
+        width: 180px;
+    }
+    ul.navbar-nav.ml-auto {
+        text-align: center;
+    }
+    .navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .banner-content {
+        margin-top: 80px;
+    }
+
+    
+    #banner_sec .banner-content h1 {
+        margin-top: 0px;
+        margin-left: 0px;
+        font-size: 60px;
+    }
+
+    #banner_sec .banner-content h2 {
+        font-size: 40px;
+        margin-top: -10px;
+        margin-left: 0px;
+    }
+
+    .banner-img img {
+        margin-left: 5px;
+        margin-bottom: -90px;
+    }
+    .banner-img img {
+        transform: scale(1);
+    }
+    .banner-item {
+        top: 400px;
+        left: 45px;
+    }
+    #choose h1 {
+        font-size: 55px;
+    }
+    #choose p {
+        font-size: 14px;
+        padding: 0px 30px;
+    }
+    h6.card-title {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    #choose p {
+        font-size: 16px;
+    }
+    .mt-4, .my-4 {
+        margin-bottom: 25px;
+    }
+    #up_coming p{
+        text-align: center;
+    }
+    #up_coming p {
+        font-size: 16px;
+    }
+    h5.text-uppercase {
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .follow-icon.pt-5 {
+        text-align: center;
+    }
+    #contact-form img {
+        margin-top: -80px;
+        margin-left: 0px;
+    }
+    a.btn.btn-danger.btn-block {
+        margin-bottom: 20px;
+    }
+    #contact-form .contact-img-3 {
+        margin-top: -90px;
+        margin-left: 218px;
+    }
+    .card {
+        text-align: center;
+    }
+    #footer .footer-bg-img {
+        text-align: center;
+    }
+    .footer-right-content .fa {
+        font-size: 25px;
+    }
+    .footer-right-content {
+        margin-top: -45px;
+        float: none;
+        font-size: 16px;
+    }
+
+
+ }
+
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    ul.navbar-nav.ml-auto {
+        text-align: center;
+    }
+    .banner-item {
+        top: 588px;
+        left: 169px;
+    }
+    #choose p {
+        font-size: 16px;
+    }
+    h6.card-title {
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .col-lg-6.px-5.py-4.rounded {
+        text-align: center;
+    }
+    h5.text-uppercase {
+        font-weight: bold;
+        font-size: 30px;
+    }
+    #up_coming p {
+        font-size: 16px;
+    }
+    #contact-form .contact-img-3 {
+        margin-left: 405px;
+        margin-top: -90px;
+        margin-bottom: -45px;
+    }
+    #contact-form .form {
+        padding-bottom: 20px;
+    }
+    #about p {
+        font-size: 16px;
+    }
+    .card .card-body {
+        text-align: center;
+    }
+    h5.card-title {
+        font-weight: bold;
+        font-size: 30px;
+    }
+    .footer-content.text-light.py-5 {
+        text-align: center;
+    }
+    .footer-content p {
+        font-size: 18px;
+    }
+    .footer-content span {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .footer-right-content {
+        margin-top: 0;
+        float: none;
+        text-align: center;     
+    }
+    .footer-right-content .fa {  
+        font-size: 20px;
+        margin: 5px;
+    }
+
+}
